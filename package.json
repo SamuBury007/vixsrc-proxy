@@ -1,7 +1,7 @@
 {
   "name": "vixsrc-proxy",
-  "version": "1.0.0",
-  "description": "Proxy per vixsrc.to su Samsung Tizen TV",
+  "version": "2.0.0",
+  "description": "Proxy avanzato per vixsrc.to con bypass Cloudflare",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -10,10 +10,10 @@
     "node": ">=18.0.0"
   },
   "dependencies": {
-    "cookie-parser": "^1.4.6",
     "cors": "^2.8.5",
     "express": "^4.18.2",
-    "helmet": "^7.1.0",
-    "http-proxy-middleware": "^3.0.0"
+    "puppeteer": "^22.0.0",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2"
   }
 }
